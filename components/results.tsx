@@ -2,11 +2,11 @@ import React from "react";
 
 const Results = () => {
   return (
-    <div className="flex rounded-3xl bg-white mt-10 shadow-lg">
-      <div className=" flex justify-center flex-col items-center bg-gradient-to-t from-blue-700 to-blue-500 rounded-3xl p-8 w-96">
+    <div className="flex rounded-3xl bg-white mt-10 shadow-lg w-fit justify-center items-center">
+      <div className=" flex justify-center flex-col items-center bg-gradient-to-t from-blue-700 to-blue-500 rounded-3xl p-8 w-80">
         <h1 className="text-gray-400 font-semibold pb-6">Your Results</h1>
-        <div className=" rounded-full bg-gradient-to-b from-blue-800 to-blue-600 p-8 flex flex-col">
-          <span className="text-white text-4xl font-semibold pb-2">82</span>
+        <div className=" rounded-full bg-gradient-to-b from-blue-800 to-blue-600 p-8 flex flex-col justify-center items-center w-40 h-40 mb-4">
+          <span className="text-white text-5xl font-semibold pb-2">82</span>
           <span className="text-gray-400">of 100</span>
         </div>
         <h1 className="text-white text-xl mb-2">Great</h1>
@@ -15,9 +15,9 @@ const Results = () => {
         </p>
       </div>
 
-      <div className="w-96 mt-10 ml-6">
+      <div className="w-80 mt-10 ml-6 ">
         <h1 className="font-semibold mb-4">Summary</h1>
-        <div className="bg-red-100 flex justify-between mb-4  rounded-xl py-1 ">
+        <div className="bg-red-100 flex justify-between mb-4  rounded-xl py-1  px-4 w-[80%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -38,7 +38,7 @@ const Results = () => {
             <strong>80</strong>/100
           </span>
         </div>
-        <div className="flex justify-between bg-yellow-50 mb-4 rounded-xl py-1 ">
+        <div className="flex justify-between bg-yellow-50 mb-4 rounded-xl py-1 px-4 w-[80%] ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -73,7 +73,7 @@ const Results = () => {
             <strong>80</strong>/100
           </span>
         </div>
-        <div className="flex justify-between mb-4 bg-green-50">
+        <div className="flex justify-between mb-4 bg-green-50 px-4 w-[80%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -94,7 +94,7 @@ const Results = () => {
             <strong>80</strong>/100
           </span>
         </div>
-        <div className="flex justify-between bg-blue-50 mb-4 rounded-xl py-1 ">
+        <div className="flex justify-between bg-blue-50 mb-4 rounded-xl py-1 px-4 w-[80%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -123,7 +123,7 @@ const Results = () => {
             <strong>80</strong>/100
           </span>
         </div>
-        <button className="bg-blue-950 text-white p-4 rounded-3xl px-16">
+        <button className="bg-blue-950 text-white p-4 rounded-3xl w-[80%]">
           Continue
         </button>
       </div>
