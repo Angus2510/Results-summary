@@ -2,7 +2,7 @@ import React from "react";
 
 const Results = () => {
   return (
-    <div className="flex rounded-3xl bg-white mt-10 shadow-lg w-fit justify-center items-center">
+    <div className="flex flex-col sm:flex-row  rounded-3xl bg-white mt-10 shadow-lg w-fit justify-center items-center">
       <div className=" flex justify-center flex-col items-center bg-gradient-to-t from-blue-700 to-blue-500 rounded-3xl p-8 w-80">
         <h1 className="text-gray-400 font-semibold pb-6">Your Results</h1>
         <div className=" rounded-full bg-gradient-to-b from-blue-800 to-blue-600 p-8 flex flex-col justify-center items-center w-40 h-40 mb-4">
